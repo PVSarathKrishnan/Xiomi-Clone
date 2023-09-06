@@ -1,0 +1,650 @@
+*{
+    
+    width: 100%;
+    viewport-fit: cover;
+    margin-left:0 ;
+}
+.body{
+    margin: 0;
+}
+.mainbody{
+    height: 5000px;
+    background-image: linear-gradient(white,#faf2f2cf) ;
+}
+.main{
+display: flex; 
+background-color: #ffffff;
+
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 105px;
+    margin-bottom: -45px;
+ 
+}
+.header p{
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    transition: transform 0.3s ease;
+}
+.header p:hover{
+    transform: scale(1.05);
+}
+
+
+.leftheader{
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rightheader{
+    width: 30%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.rightheader img{
+    width: 390px;
+    margin-right: 20px;
+}
+
+.leftheaderimage{
+    width: 30%;
+    height: 100%;
+    margin-right: 100px;
+}
+
+.leftheaderimage img{
+    width: 71%;
+    height: 79%;
+    transition: transform 0.001s ease;
+}
+.leftheaderimage:hover{
+    transform: scale(1.2);
+}
+.A {
+    background-image: url(https://i03.appmifile.com/87_operator_in/04/09/2023/3bdbda523a48b9cf6331e03d1cebf704.jpg?f=webp);
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    padding-left: 300px;
+    width: 100%;
+    padding-right: 100px;
+
+}
+.A h1{
+    padding-top: 282px;
+    font-size: 56px;
+    color: white;
+    font-family: system-ui;
+    margin-left: 162px;
+    margin-bottom: -2px;
+}
+.A p{ 
+    font-size: 56px;
+    color: white;
+    font-family: system-ui;
+    margin-left: 120px;
+    padding-bottom: -100px;
+    margin: auto;
+    padding-left: 167px;
+    font-size: 40px;
+}
+.button0{
+   width: 169px;
+   height: 49px;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   font-size: 24px;
+   border-radius: 15px;
+   border: none;
+   margin-left: 160px;
+   margin-top: 20px;
+   transition: background-color 0.3s ease;
+}
+.button0:hover {
+    background-color: rgb(198, 197, 197); 
+ }
+
+
+.B {
+    background-image: url(https://i03.appmifile.com/55_operator_in/10/08/2023/91c71943fbf754b397c5b923fa54db17.jpg?f=webp);
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    padding-left: 300px;
+    width: 100%;
+    padding-right: 100px;
+}
+
+.B h1 {
+    padding-top: 282px;
+    font-size: 56px;
+    color: white;
+    font-family: system-ui;
+    margin-left: 162px;
+    margin-bottom: -2px;
+}
+
+.B p {
+    font-size: 56px;
+    color: white;
+    font-family: system-ui;
+    margin-left: 120px;
+    padding-bottom: -100px;
+    margin: auto;
+    padding-left: 167px;
+    
+}
+
+.B .price {
+    width: fit-content;
+}
+
+.old-price {
+    opacity: 0.5; 
+    text-decoration: line-through;
+    font-size: 32px;
+}
+
+.new-price {
+    font-weight: bold; 
+    margin-right: 12px; 
+    font-size: 40px;
+}
+
+.button1 {
+    width: 175px;
+    height: 55px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 160px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, text-decoration 0.3s ease; /* Add smooth transitions for background color and text-decoration */
+   display: inline-block; /* Ensure the text-decoration applies correctly */
+}
+.button1:hover {
+     /* Change to a slightly different color on hover */
+    text-decoration: underline; /* Add an underline effect on hover */
+ }
+.thirdsection{
+    width: fit-content;
+    display: flex;
+}
+.C1{
+    width: 1031.5px;
+    background-image: url(https://i03.appmifile.com/272_operator_in/29/08/2023/b70577d7964ec90328bdd117a261d26f.jpg?f=webp);
+    background-position: center;
+    background-size: contain;
+    height: 852px;
+    padding-left: 300px;
+    padding-right: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+}
+.C1:hover{
+    transform: scale(1.005);
+}
+
+.C1 h1{
+    padding-top: 70px;
+    font-size: 76px;
+    color: white;
+    font-family: system-ui;
+    margin-left: 162px;
+    margin-bottom: -2px;
+}
+.C1 p{ 
+    font-size: 56px;
+    color: white;
+    font-family: system-ui;
+    margin-left: 270px;
+    margin-top: -15px;
+    font-size: 40px;
+    
+
+}
+.button2{
+   width: 289px;
+   height: 49px;
+   background-color: transparent;
+   color:white;
+   font-size: 34px;
+   border-radius: 15px;
+   border: none;
+   margin-left: 233px;
+   transition: text-decoration 0.3s ease;
+   display: inline-block;
+}
+.button2:hover{
+    text-decoration: underline;
+}
+
+.C2 {
+    width: 988.5px;
+    background-image: url(https://i03.appmifile.com/338_operator_in/04/09/2023/6f7503e61d7c2320e50fab6a7c00b405.jpg?f=webp);
+    background-position: center;
+    background-size: cover;
+    height: 852px;
+    padding-left: 300px;
+    padding-right: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+.C2:hover{
+    transform: scale(1.009);
+}
+.C2 h1{
+    padding-top: 70px;
+    font-size: 76px;
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: -70px;
+    margin-bottom: -2px;
+    font-weight: 100;
+}
+.redmi {
+    font-weight: 600;
+}
+.C2 p{ 
+    font-size: 56px;
+    color: rgb(0, 0, 0);
+    font-family: system-ui;
+    margin-left: 200px;
+    margin-top: -15px;
+    font-size: 40px;
+}
+.button4{
+    width: 289px;
+    height: 49px;
+    background-color: transparent;
+    color:#FF6900;
+    font-size: 34px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 160px;
+    transition:  text-decoration 0.3s ease;
+    display: inline-block;
+
+}
+.button4:hover{
+    text-decoration: underline;
+}
+.four {
+    display: flex;
+justify-content: space-between; 
+}
+.D1{
+    width: 2092px;
+    background-image: url(https://i03.appmifile.com/549_operator_in/01/08/2023/9bef0fa60660f25faeadebccf75cb4a4.jpg?f=webp);
+    background-position: center;
+    background-size: cover;
+    height: 852px;
+    padding-left: 300px;
+    padding-right: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: transform 0.3s ease;
+}
+.D1:hover{
+    transform: scale(1.005);
+}
+.D1 h1{
+    padding-top: 70px;
+    font-size: 76px;
+    color: white;
+    font-family: system-ui;
+    margin-left: -106px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.D1 p{ 
+    font-size: 56px;
+    color: white;
+    font-family: system-ui;
+    margin-left: 270px;
+    margin-top: -15px;
+    font-size: 40px;
+    margin-bottom:-10px ;
+
+}
+.button1{
+   width: 289px;
+   height: 49px;
+   background-color: transparent;
+   color:white;
+   font-size: 34px;
+   border-radius: 15px;
+   border: none;
+   margin-left: 233px;
+   
+}
+
+
+.D2a{
+    width: 485px;
+    background-image: url(https://i03.appmifile.com/752_operator_in/16/02/2023/9ba4de496b2585d836d867ae79b6d8f0.jpg?f=webp);
+    background-position: center;
+    background-size: cover;
+    height: 855px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 19px;
+    margin-left: 20px;
+   /* laptop */
+   transition: transform 0.3s ease;
+}
+.D2a:hover{
+    transform: scale(1.005);
+}
+.D2a h1{
+    padding-top: 70px;
+    font-size: 56px;
+    color: white;
+    font-family: system-ui;
+    margin-left: -7px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 500px;
+}
+.D2a p{ 
+    font-size: 56px;
+    color: white;
+    font-family: system-ui;
+    margin-left: 270px;
+    margin-top: -15px;
+    font-size: 40px;
+    margin-bottom:-10px ;
+
+}
+.button3{
+    width: 289px;
+    height: 49px;
+    background-color: transparent;
+    color: white;
+    font-size: 34px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 95px;
+    transition: textdecoration 0.3 seconds ease;
+}
+.button3:hover {
+    text-decoration: underline;
+}
+.fourthsection{
+
+    display: flex;
+    justify-content: space-between;
+}
+.D2b{
+    width: 205px;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    height: 855px;
+    padding-left: 300px;
+    padding-right: 178px;
+    margin-top: 19px;
+    margin-left: 16px;
+    transition: transform 0.3s ease;
+}
+.D2b:hover{
+    transform: scale(1.005);
+}
+.D2b img{
+    width: 398px;
+    height: 398;
+    margin-left: -167px;
+    margin-top: 111px;
+}
+
+.D2b h1{
+    padding-top: 70px;
+    font-size: 56px;
+    color: rgb(0, 0, 0);
+    font-family: system-ui;
+    margin-left: -246px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 500px;
+}
+.D2b p{ 
+    font-size: 56px;
+    color: rgb(0, 0, 0);
+    font-family: system-ui;
+    margin-left: 270px;
+    margin-top: -15px;
+    font-size: 40px;
+    margin-bottom:-10px ;
+
+}
+.button5{
+    width: 289px;
+    height: 49px;
+    background-color: transparent;
+    color: #FF6900;
+    font-size: 34px;
+    border-radius: 15px;
+    border: none;
+    margin-left: -134px;
+    transition: text-decoration 0.3 seconds ease;
+} 
+.button5:hover{
+    text-decoration: underline;
+}
+
+.last{
+    width: 100%;
+    height: 830px;
+}
+.row1 {
+    display: flex;
+    width: 96%;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 22px;
+}
+.firstpic{
+    height: 771px;
+    background-image: url(https://i03.appmifile.com/838_operator_in/30/05/2023/57f80784b5f973d3b50f2716a1eef8ee.jpg);
+    width: 2038px;
+    transition: transform 0.3s ease;
+}
+.firstpic:hover{
+    transform: scale(1.05);
+}
+.secondpic{
+    margin-left: 40px;
+    transition: transform 0.3s ease;
+}
+.secondpic:hover{
+    transform: scale(1.02);
+}
+.secondpic h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 140px;
+
+}
+.secondpic p {
+    text-align: center;
+    font-size: 46px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button7{
+    width: 289px;
+    height: 49px;
+    background-color: transparent;
+    color: #000000;
+    font-weight: 400;
+    font-size: 39px;
+    border-radius: 15px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 655px;
+    transition: text-decoration 0.3 seconds ease;
+} 
+.button7:hover{
+    text-decoration: underline;
+}
+.row2 {
+    display: flex;
+    width: 96%;
+    background-color: #ffffff;
+    margin: 10px auto;
+    padding: 22px;
+    height: 810px;
+}
+.thirdpic{
+    margin-left: 40px;
+
+}
+.thirdpic h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 140px;
+
+}
+.thirdpic p {
+    text-align: center;
+    font-size: 46px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icongroup{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.icon{
+
+    height: 160px;
+    width: 160px;
+    margin: auto;
+    
+}
+.caption {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button8 {
+    width: 289px;
+    height: 49px;
+    background-color: transparent;
+    color: #000000;
+    font-weight: 400;
+    font-size: 39px;
+    border-radius: 15px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 655px;
+}
+.footer-container{
+    width: 70%;
+   justify-content: space-between;
+
+}
+.footer-container p{
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+
+.footer {
+    width: 100%;
+    height: 950px;
+    background-color: #191919;
+    display: flex;
+}
+.footer .coloumns{
+    color: white;
+    width: 150px;
+    height: 386px;
+    flex: 1;
+    margin-right: 10px;
+ 
+ }
+.footer h2{
+    color: white;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.column p{
+    color: #898989;
+    font-size: 26px;
+    font-family: sans-serif;
+    line-height: 35px;
+    padding-right: 390px;
+}
+.columns{
+    display: flex;
+    width: 1720px;
+    margin-left: 220px;
+    height: 750px;
+    margin-top: 30px;
+}
+.rightpart {
+    width: 800px;
+}
+.rightpart img {
+       width: 381px;
+    height: 160px;
+    margin-top: 30px;
+}
+.inp {
+    width: 488px;
+    display: flex;
+    height: 45px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 70px;
+}
+.inp input {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    height: 40px;
+    width: 240px;
+    border: none;
+    font-size: 20px;
+}
+.button6 {
+    background-color:transparent;
+    color: white;
+    font-size: 32px;
+    height: 56px;
+    width: 152px;
+    margin-left: 215px;
+    border: none;
+    
+}
+
+.inp2 img{
+    width: 542px;
+    height: 350px;
+    margin-left: -24px;
+}
