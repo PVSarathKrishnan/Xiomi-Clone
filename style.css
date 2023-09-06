@@ -10,6 +10,7 @@
 .mainbody{
     height: 5000px;
     background-image: linear-gradient(white,#faf2f2cf) ;
+    overflow-x: hidden;
 }
 .main{
 display: flex; 
